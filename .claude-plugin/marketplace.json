@@ -1,0 +1,29 @@
+{
+  "name": "diff-branch",
+  "owner": {
+    "name": "David Alecrim",
+    "email": "david.socer@hotmail.com"
+  },
+  "description": "Git diff commands that help Claude understand branch changes quickly. Compare your current branch with master or any other branch to get context for code reviews and development.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/davidalecrim1/diff-branch",
+  "repository": "https://github.com/davidalecrim1/diff-branch",
+  "license": "MIT",
+  "keywords": ["master", "git", "diff", "branch"],
+  "plugins": [
+    {
+      "name": "diff-master",
+      "version": "1.0.0",
+      "description": "Show all changes in current branch compared to master",
+      "source": "./",
+      "commands": ["./commands/diff-master.md"]
+    },
+    {
+      "name": "diff-branch",
+      "version": "1.0.0",
+      "description": "Show all changes compared to any specified branch",
+      "source": "./",
+      "commands": ["./commands/diff-branch.md"]
+    }
+  ]
+}
