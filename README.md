@@ -47,12 +47,6 @@ This command will:
 Install this plugin in Claude Code by running:
 
 ```
-/plugin add github davidalecrim1/diff-branch
-```
-
-Or using the full URL:
-
-```
 /plugin marketplace add https://github.com/davidalecrim1/diff-branch
 ```
 
